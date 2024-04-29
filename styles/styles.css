@@ -1,0 +1,33 @@
+#basicCalculator {
+    margin-left: 39rem;
+    margin-top: 10rem;
+    padding: 10px 10px 10px 10px;
+    color: white;
+}
+body {
+    background-color: #0a58ca;
+}
+#basicCalculator h2 {
+    color: peachpuff;
+    padding-bottom: 20px;
+}
+.answerform {
+    padding-left: 19px;
+    padding-top: 12px;
+}
+.numberfield1 {
+    padding-bottom: 10px;
+}
+.numberfield2 {
+    padding-bottom: 10px;
+}
+/* all of the above is for the basic calculator... except the body duh that's for all*/
+/* below this will be for the mortgage calculator */
+#mortgageCalculator {
+    margin-left: 39rem;
+    margin-top: 10rem;
+    color:white;
+}
+#mortgageCalculator h2 {
+    color: peachpuff;
+}
