@@ -11,8 +11,8 @@ function calculateMortgage() {
     let numberOfPayments = loanTerm * 12;
 
     let monthlyPayment = (loanAmount * monthlyInterestRate) / (1 - Math.pow(1 + monthlyInterestRate, -numberOfPayments));
-    let totalPayment = monthlyPayment * numberOfPayments;
+    let totalPayment = (monthlyPayment * numberOfPayments) - loanAmount;
 
-    document.getElementById("result").innerHTML = "Monthly Payment: $" + monthlyPayment.toFixed(2) + "<br>Total Payment: $" + totalPayment.toFixed(2);
+    document.getElementById("result").innerHTML = "Monthly Payment: $" + monthlyPayment.toFixed(2) + "<br>Total Interest: $" + totalPayment.toFixed(2);
 }
 
